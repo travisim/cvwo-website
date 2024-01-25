@@ -5,7 +5,7 @@
 
 
 #### Description:
-a simple web forum made with react on rails with Postgre as the database
+a simple web forum made with react on rails with Postgresql as the database
 
 
 ## warning 
@@ -23,13 +23,10 @@ brew services start postgresql@13
 brew link postgresql@13 --force
 ```
 ### step 2  
-open the terminal in the directory of the project and run    
-```
-sudo gem install bundler:2.4.10
-```
+ navigate to  the directory of project to run the next few commands 
 ### step 3  
 thereafter install ruby 3.2.2 by following [this tutorial](https://www.theodinproject.com/lessons/ruby-installing-ruby)
-and for the new ruby version tombe used globally, run:
+and for the new ruby version to be used globally, run:
 ```
 echo 'export PATH="$HOME/.rbenv/bin: SPATH"' >> ~/.zshrc 
 echo 'eval "$(rbenv init -)"' >> ~/.zshrc
@@ -37,6 +34,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
 ### step 5
 install project dependencies:
 ```
+sudo gem install bundler:2.4.10
 bundle install  
 yarn add esbuild
 ```
