@@ -88,7 +88,7 @@ const EditForumThreadComment = () => {
             <button type="submit" className="btn custom-button mt-3">
               Save Edit
             </button>
-            <Link to={`/forumThread/${forumThreadComment.forum_thread_id}`} className="btn btn-link mt-3">
+            <Link to={`/forumThread/${forumThreadComment.forum_thread_id}`} className="btn custom-button mt-3">
               Back to Thread
             </Link>
           </form>
