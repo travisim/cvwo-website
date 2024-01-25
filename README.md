@@ -2,7 +2,7 @@
 
 
 
-# Online Recruit Assessment Card
+
 
 #### Description:
 a simple web forum made with react on rails with Postgre as the database
