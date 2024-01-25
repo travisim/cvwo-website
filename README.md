@@ -34,6 +34,10 @@ yarn add esbuild
 ### step 6
 configure database:
 rake db:create db:migrate  
+
+### step 8
+seed website with some data
+rails db:seed
 ### step 7
 run bin/dev, the website should be running on http://127.0.0.1:3000  
 
